@@ -12,10 +12,12 @@
     header p {
         font-size: 1em;
     }
-
+    main p {
+        margin-top: 10px;
+    }
     span#burguer {
         display: block;
-        margin: 0px 150px;
+        margin: 0px 130px;
         padding: 10px;
         background-color: var(--cor5);
         cursor: pointer;
@@ -40,16 +42,20 @@
         display: block;
         text-align: center;
         padding: 4px 0px;
-        margin: 5px 150px;
+        margin: 5px 130px;
     }
 
     nav a:hover {
         background-color: var(--cor0);
     }
 
-    script {
-        display: block;
+    aside ul {
+        columns: 1;
+        margin: 10px 20px;
     }
 
+    menu {
+        display: none;
+    }
 }
 

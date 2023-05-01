@@ -18,12 +18,14 @@
             menu
             </span>
     </header>
-    <nav id="nav-menu">
-        <a href="#" target="_self" rel="noopener noreferrer">Home</a>
-        <a href="#" target="_self" rel="noopener noreferrer">Noticias</a>
-        <a href="#" target="_self" rel="noopener noreferrer">Curiosidades</a>
-        <a href="#" target="_self" rel="noopener noreferrer">Fale Conosco</a>
-    </nav>
+    <menu id="menus">
+        <nav>
+            <a href="#" target="_self" rel="noopener noreferrer">Home</a>
+            <a href="#" target="_self" rel="noopener noreferrer">Noticias</a>
+            <a href="#" target="_self" rel="noopener noreferrer">Curiosidades</a>
+            <a href="#" target="_self" rel="noopener noreferrer">Fale Conosco</a>
+        </nav>
+    </menu>
     <main>
         <article>
                 <h1>
@@ -110,15 +112,15 @@
     </main>
     <footer>Site desenvolvido por <a href="https://www.instagram.com/flp.eth/" target="_blank">Felipe Verissimo</a></footer>
 
-<script>
-    function clickMenu() {
-        if (nav-menu.style.display == 'block') {
-            nav-menu.display = 'none'
-        } else {
-            nav-menu.style.display = 'block'
+    <script>
+        function clickMenu() {
+            if (menus.style.display == 'block') {
+                menus.style.display = 'none'
+            } else {
+                menus.style.display = 'block'
+            }
         }
-    }
-</script>
+    </script>
     
 </body>
 </html>
