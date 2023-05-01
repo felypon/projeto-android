@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/phone.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
@@ -113,6 +113,14 @@
     <footer>Site desenvolvido por <a href="https://www.instagram.com/flp.eth/" target="_blank">Felipe Verissimo</a></footer>
 
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menus.style.display = 'block'
+            } else {
+                menus.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (menus.style.display == 'block') {
                 menus.style.display = 'none'

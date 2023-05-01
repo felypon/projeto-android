@@ -12,6 +12,12 @@
     header p {
         font-size: 1em;
     }
+
+    main {
+        width: 90vw;
+        margin: auto;
+    }
+
     main p {
         margin-top: 10px;
     }
